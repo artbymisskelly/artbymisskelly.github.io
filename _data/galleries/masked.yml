@@ -1,0 +1,74 @@
+picture_path: paintings
+pictures:
+- caption: ''
+  filename: masked1
+  height: '41'
+  price_usd: '150'
+  title: "Masked I \u9762\u5177\u7D6E\u8A9E\uFF1A\u4E00"
+  type: Acrylic on canvas sheet
+  width: '29'
+  year: 2020
+- caption: ''
+  filename: masked2
+  height: '29'
+  price_usd: '150'
+  title: "Masked II \u9762\u5177\u7D6E\u8A9E\uFF1A\u4E8C"
+  type: Acrylic on canvas sheet
+  width: '41'
+  year: 2020
+- caption: ''
+  filename: masked3
+  height: '41'
+  price_usd: '150'
+  title: "Masked III \u9762\u5177\u7D6E\u8A9E\uFF1A\u4E09"
+  type: Acrylic on canvas sheet
+  width: '30'
+  year: 2020
+- caption: ''
+  filename: masked4
+  height: '29'
+  price_usd: '150'
+  title: "Masked IV \u9762\u5177\u7D6E\u8A9E\uFF1A\u56DB"
+  type: Acrylic on canvas sheet
+  width: '41'
+  year: 2020
+- caption: ''
+  filename: masked5
+  height: '40'
+  price_usd: '130'
+  title: "Masked V \u9762\u5177\u7D6E\u8A9E\uFF1A\u4E94"
+  type: Acrylic on canvas
+  width: '40'
+  year: 2020
+- caption: ''
+  filename: masked6
+  height: '40'
+  price_usd: '130'
+  title: "Masked VI \u9762\u5177\u7D6E\u8A9E\uFF1A\u516D"
+  type: Acrylic on canvas
+  width: '40'
+  year: 2020
+- caption: (Size 8F)
+  filename: masked7
+  height: '38'
+  price_usd: '150'
+  title: "Masked VII \u9762\u5177\u7D6E\u8A9E\uFF1A\u4E03"
+  type: Acrylic on canvas
+  width: '45'
+  year: 2020
+- caption: (Size 10M)
+  filename: masked9
+  height: '33'
+  price_usd: '140'
+  title: "Masked IX \u9762\u5177\u7D6E\u8A9E\uFF1A\u4E5D"
+  type: Acrylic on canvas
+  width: '53'
+  year: 2020
+- caption: (Size 10M)
+  filename: masked10
+  height: '53'
+  price_usd: '140'
+  title: "Masked X \u9762\u5177\u7D6E\u8A9E\uFF1A\u5341"
+  type: Acrylic on canvas
+  width: '33'
+  year: 2020

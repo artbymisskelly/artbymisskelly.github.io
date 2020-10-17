@@ -1,0 +1,60 @@
+picture_path: paintings
+sizes:
+  - 1080
+  - 360
+pictures:
+- filename: sleep
+  title: Sleep 眠
+  type: Acrylic on canvas
+  dimensions: 20×25.5cm
+  caption: “Sleep” is a very peaceful state. For me, that is the only state where we look like we are part of nature. That calmness and stableness is hard to find when we are awake. Too often we are tied up with meetings, with phone calls, and with social media. We try to achieve success quickly, but not so elegantly, so swiftly. While we are being consumed in this busy lifestyle, we stop to think about the pace of nature and appreciate the art of stillness. I want to record down the scene where one is sleeping. Using the familiar colours of a tree, green brown and yellow, to represent both the figure and nature. The box on the right hand side shows the irony of how we are always on the move, yet we are trapped in a box. I hope this painting can remind the audience to stop and appreciate a slow paced life.
+  price: EUR33/USD40
+  date: 2017
+
+- filename: freedom
+  title: Freedom 狂人
+  type: Acrylic on canvas
+  dimensions: 12.5×17.5cm
+  caption: This is my portrayal of how a romantic and ideal artist would be. In the rain, curled hair and muscles that are grown due to labour. Vibrant colours reflect the mind of the artist. The artist is not impacted by the moody weather nor the work. The artist is hopeful and eager to share all his/her knowledge and thoughts. The artist listens and absorbs the ideas and wisdoms from encounters. Endure life in delight is the most artistic way of living.
+  price: EUR25/USD30
+  date: 2020
+
+- filename: hugo
+  title: Hugo 雨果
+  type: Acrylic on canvas sheet
+  dimensions: 42×29.7cm
+  caption: Our first trip abroad. Everytime I look at my partner it looks like he is the only being in existence. Everything else other than him is lost in the dark. I see him, I see nothing but him.
+  price: EUR84/USD100
+  date: 2020
+
+- filename: bebehugo
+  title: Bébé Hugo 幼時雨果
+  type: Acrylic on canvas sheet
+  dimensions: 27.5×36cm
+  caption: Based on a photograph of my partner when he was nearly two years old. Red, blue and yellow, these are the primary colours. In addition, they are also the colours of childhood in general. I want this painting to remind the audience of their childhood, the age of fun, innocence, and laughter.
+  price: EUR84/USD100
+  date: 2020
+
+- filename: silence
+  title: Silence 肅靜
+  type: Acrylic on canvas sheet
+  dimensions: 29×41cm
+  caption: This painting aims to express loneliness of an aged man. The man is alone in a snow field where there stands a tree without any leaves. There is nothing else but snow and stormy weather ahead of the man, yet he is determined to walk towards the unknown. Perhaps he knows where he is going, but we do not know what is waiting for him. He will be facing it alone in the cold with no one to rely on.
+  price: EUR84/USD100
+  date: 2020
+
+- filename: selfportrait
+  title: Self Portrait 自畫像
+  type: Acrylic on canvas sheet
+  dimensions: 29.7×40.5cm
+  caption: This is a self portrait based on the trip to Lisbon in 2019. I was at a wine tasting room, drinking portugese wine for the first time. Alcohol is an interesting substance, it releases your stress, relaxes your sights, and takes you to a world of wonder.
+  price: EUR84/USD100
+  date: 2020
+
+- filename: hike
+  title: Hike 登山趣
+  type: Acrylic on canvas sheet
+  dimensions: 42×29cm
+  caption:
+  price: EUR84/USD100
+  date: 2020

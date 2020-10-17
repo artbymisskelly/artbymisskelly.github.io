@@ -1,0 +1,54 @@
+<div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="card-columns mt-3 mb-3">
+  {% for picture in include.gallery.pictures %}
+  <div class="card mb-4">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/{{ include.gallery.picture_path }}/fullsize/{{ picture.filename | append: '.jpg' }}"
+    data-responsive="{% for size in include.gallery.sizes %} {{ site.url}}{{ site.baseurl }}/assets/{{ include.gallery.picture_path }}/{{ size }}/{{ picture.filename | append: '.jpg' }} {{ size | split: '-' | last | split: '.' | first | split: 'x' | first | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}" class="image"
+    {% if picture.title %} data-sub-html="<div class='lg-toolbar caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>"{% endif %}>
+      <img class="card-img-top" alt="{{ picture.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/{{ include.gallery.picture_path }}/360/{{ picture.filename | append: '.jpg' }}" />
+    </a>
+    <div class="card-body">
+      {% if picture.title %}
+      <h4 class="card-title">{{ picture.title }}</h4>
+      {% endif %}
+      {% if picture.type %}
+      <h6 class="card-subtitle mb-2 text-muted">{{ picture.type }} - {{ picture.height }}x{{ picture.width }}</h6>
+      {% endif %}
+	  {% if picture.caption %}
+      <div class="card-text">{{ picture.caption }}</div>
+	  {% endif %}
+    </div>
+
+    <div class="card-footer d-flex justify-content-between">
+      {% if picture.year %}
+      <div class="text-muted">{{ picture.year }}</div>
+      {% endif %}
+      {% if picture.price_usd %}
+      <div class="text-muted">${{ picture.price_usd }}</div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+$(document).ready(function() {
+  var $gallery{% if include.id_number %}{{ include.id_number }}{% endif %} = $("#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}").lightGallery({
+    thumbnail: false,
+    selector: '.image'
+  });
+});
+
+// // init isotope
+// var $grid{% if include.id_number %}{{ include.id_number }}{% endif %} = $('#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}').isotope({
+//   percentPosition: true,
+//   columnWidth: '#gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}',
+//   itemSelector: '.image-wrapper',
+//   layoutMode: "masonry"
+// });
+
+// layout Isotope after each image loads
+$grid{% if include.id_number %}{{ include.id_number }}{% endif %}.imagesLoaded().progress( function() {
+  $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.masonry();
+});
+
+</script>
