@@ -10,7 +10,7 @@ title: Miss Kelly's Gallery
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Test Gallery
-baseurl: "/gallery-kelly" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username:
 github_username:
